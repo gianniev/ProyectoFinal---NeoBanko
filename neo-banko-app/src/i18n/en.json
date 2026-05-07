@@ -1,0 +1,90 @@
+{
+  "layout": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "transactions": "Transactions",
+      "crypto": "Crypto",
+      "settings": "Settings"
+    },
+    "sessionActive": "Session active",
+    "signOut": "Sign out",
+    "signOutModal": {
+      "title": "Sign out",
+      "message": "Are you sure you want to sign out?",
+      "cancel": "Cancel",
+      "confirm": "Yes, sign out"
+    }
+  },
+  "account": {
+    "eyebrow": "Dashboard",
+    "title": "Welcome back",
+    "lead": "Choose whether to view your available balance, your crypto portfolio, or both.",
+    "toggleAria": "Select visible balances",
+    "euros": "Euros",
+    "crypto": "Crypto",
+    "availableBalance": "Available balance",
+    "portfolio": "My portfolio",
+    "noBuys": "No purchases yet",
+    "accountNumber": "Account {accountNumber}",
+    "accountUnavailable": "Account unavailable",
+    "loadingBalanceAria": "Loading balance",
+    "loadingPortfolioAria": "Loading portfolio"
+  },
+  "settings": {
+    "eyebrow": "Settings",
+    "title": "Profile",
+    "lead": "Manage the information linked to your account.",
+    "statusPrefix": "Account status -",
+    "statusLoading": " Loading...",
+    "statusActive": " Active",
+    "statusInactive": " Inactive",
+    "createdAt": "Account created on {date}",
+    "language": {
+      "title": "Language",
+      "subtitle": "Select the app language"
+    },
+    "password": {
+      "title": "Change password",
+      "subtitle": "Update your account password",
+      "button": "Change password",
+      "current": "Current password",
+      "new": "New password",
+      "confirm": "Confirm new password",
+      "save": "Save",
+      "saving": "Saving...",
+      "cancel": "Cancel",
+      "requiredFields": "Please complete all fields",
+      "minLength": "New password must be at least 6 characters",
+      "mismatch": "New passwords do not match",
+      "success": "Password updated successfully"
+    },
+    "signout": {
+      "title": "Sign out",
+      "subtitle": "Sign out of your account on this device",
+      "button": "Sign out"
+    }
+  },
+  "transactions": {
+    "loadingHistoryAria": "Loading history",
+    "loadingFormAria": "Loading form",
+    "loadingPanelAria": "Loading transactions",
+    "eyebrow": "Transactions",
+    "lead": "Send money to another account using email or ID, just like in your backend.",
+    "recipient": "Recipient",
+    "recipientPlaceholder": "Email or ID",
+    "amount": "Amount",
+    "concept": "Description",
+    "conceptPlaceholder": "Transfer",
+    "processing": "Processing transaction",
+    "submit": "Send transfer",
+    "historyTitle": "Transaction history",
+    "empty": "You do not have any transactions yet.",
+    "sent": "Sent",
+    "received": "Received",
+    "defaultDescription": "Transfer",
+    "to": "To {name} ({account})",
+    "from": "From {name} ({account})",
+    "transferSuccess": "Transfer completed successfully",
+    "currencyCode": "EUR"
+  }
+}

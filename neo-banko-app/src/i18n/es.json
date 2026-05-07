@@ -1,0 +1,90 @@
+{
+  "layout": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "transactions": "Transacciones",
+      "crypto": "Crypto",
+      "settings": "Configuracion"
+    },
+    "sessionActive": "Sesion iniciada",
+    "signOut": "Salir",
+    "signOutModal": {
+      "title": "Cerrar sesion",
+      "message": "Estas seguro de que quieres cerrar sesion?",
+      "cancel": "Cancelar",
+      "confirm": "Si, salir"
+    }
+  },
+  "account": {
+    "eyebrow": "Dashboard",
+    "title": "Bienvenido de nuevo",
+    "lead": "Elige si quieres ver tu saldo disponible, tus criptomonedas o ambos.",
+    "toggleAria": "Seleccionar saldos visibles",
+    "euros": "Euros",
+    "crypto": "Crypto",
+    "availableBalance": "Saldo disponible",
+    "portfolio": "Mi cartera",
+    "noBuys": "Sin compras",
+    "accountNumber": "Cuenta {accountNumber}",
+    "accountUnavailable": "Cuenta no disponible",
+    "loadingBalanceAria": "Cargando saldo",
+    "loadingPortfolioAria": "Cargando cartera"
+  },
+  "settings": {
+    "eyebrow": "Configuracion",
+    "title": "Perfil",
+    "lead": "Gestiona la informacion vinculada a tu cuenta.",
+    "statusPrefix": "Estado de cuenta -",
+    "statusLoading": " Cargando...",
+    "statusActive": " Activa",
+    "statusInactive": " Inactiva",
+    "createdAt": "Cuenta creada el {date}",
+    "language": {
+      "title": "Idioma",
+      "subtitle": "Selecciona el idioma de la aplicacion"
+    },
+    "password": {
+      "title": "Cambiar contrasena",
+      "subtitle": "Actualiza tu contrasena de acceso",
+      "button": "Cambiar contrasena",
+      "current": "Contrasena actual",
+      "new": "Nueva contrasena",
+      "confirm": "Confirmar nueva contrasena",
+      "save": "Guardar",
+      "saving": "Guardando...",
+      "cancel": "Cancelar",
+      "requiredFields": "Completa todos los campos",
+      "minLength": "La nueva contrasena debe tener al menos 6 caracteres",
+      "mismatch": "Las contrasenas nuevas no coinciden",
+      "success": "Contrasena actualizada correctamente"
+    },
+    "signout": {
+      "title": "Cerrar sesion",
+      "subtitle": "Salir de tu cuenta en este dispositivo",
+      "button": "Cerrar sesion"
+    }
+  },
+  "transactions": {
+    "loadingHistoryAria": "Cargando historial",
+    "loadingFormAria": "Cargando formulario",
+    "loadingPanelAria": "Cargando transacciones",
+    "eyebrow": "Transacciones",
+    "lead": "Envia dinero a otra cuenta usando su email o DNI, igual que en tu backend.",
+    "recipient": "Destinatario",
+    "recipientPlaceholder": "Email o DNI",
+    "amount": "Importe",
+    "concept": "Concepto",
+    "conceptPlaceholder": "Transferencia",
+    "processing": "Procesando transaccion",
+    "submit": "Realizar transferencia",
+    "historyTitle": "Historial de transacciones",
+    "empty": "Aun no tienes transacciones registradas.",
+    "sent": "Enviada",
+    "received": "Recibida",
+    "defaultDescription": "Transferencia",
+    "to": "A {name} ({account})",
+    "from": "De {name} ({account})",
+    "transferSuccess": "Transferencia realizada correctamente",
+    "currencyCode": "EUR"
+  }
+}
