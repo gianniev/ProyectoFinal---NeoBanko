@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Navigate, useNavigate } from "react-router-dom";
+import { Link, Navigate, useNavigate } from "react-router-dom";
 import { getGoogleAuthUrl } from "../api/auth";
 import { useAuth } from "../context/AuthContext";
 
@@ -46,7 +46,7 @@ function LoginPage() {
   }
 
   return (
-    <section className="page">
+    <section className="page auth-page">
       <div className="page-header">
         <p className="eyebrow">Acceso</p>
         <h1>Iniciar sesion</h1>
@@ -109,6 +109,10 @@ function LoginPage() {
           </svg>
           Iniciar sesion con Google
         </a>
+
+        <p className="auth-switch">
+          ¿Aun no tienes cuenta? <Link to="/register">Crear cuenta</Link>
+        </p>
       </form>
     </section>
   );

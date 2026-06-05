@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { registerUser } from "../api/auth";
 
 function EyeIcon({ visible }) {
@@ -113,7 +113,7 @@ function RegisterPage() {
   }
 
   return (
-    <section className="page">
+    <section className="page auth-page">
       <div className="page-header">
         <p className="eyebrow">Alta de usuario</p>
         <h1>Crear cuenta</h1>
@@ -228,6 +228,10 @@ function RegisterPage() {
         <button className="button button-primary field-full" disabled={status.loading} type="submit">
           {status.loading ? "Registrando..." : "Registrarme"}
         </button>
+
+        <p className="auth-switch field-full">
+          ¿Ya tienes cuenta? <Link to="/login">Iniciar sesion</Link>
+        </p>
       </form>
     </section>
   );

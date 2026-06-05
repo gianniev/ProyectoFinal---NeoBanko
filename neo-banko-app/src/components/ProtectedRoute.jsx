@@ -14,7 +14,7 @@ function ProtectedRoute({ children }) {
   }
 
   if (!isAuthenticated) {
-    return <Navigate replace to="/" />;
+    return <Navigate replace to="/login" />;
   }
 
   return children;
