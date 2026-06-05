@@ -115,11 +115,7 @@ function RegisterPage() {
   return (
     <section className="page auth-page">
       <div className="page-header">
-        <p className="eyebrow">Alta de usuario</p>
         <h1>Crear cuenta</h1>
-        <p className="lead">
-          Formulario inicial preparado para el flujo de registro.
-        </p>
       </div>
 
       <form className="card form-card form-grid" onSubmit={handleSubmit}>

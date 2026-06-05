@@ -48,9 +48,7 @@ function LoginPage() {
   return (
     <section className="page auth-page">
       <div className="page-header">
-        <p className="eyebrow">Acceso</p>
         <h1>Iniciar sesion</h1>
-        <p className="lead">Accede con tu cuenta real del backend.</p>
       </div>
 
       <form className="card form-card auth-login-form" onSubmit={handleSubmit}>
